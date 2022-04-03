@@ -1,0 +1,31 @@
+package com.icai.practicas.model;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+//import com.icai.practicas.model.*;
+
+import org.junit.jupiter.api.Test;
+
+//import org.junit.jupiter.api.*;
+
+
+public class DNITest {
+    @Test
+    public void testDNI(){
+
+        //no valen
+        DNI dni1 = new DNI ("0000000A");
+        DNI dni2 = new DNI ("0000000B");
+        DNI dni3 = new DNI ("001");
+        assertEquals(false, dni1.validar());
+        assertEquals(false, dni2.validar());
+        assertEquals(false, dni3.validar());
+
+
+        //DNI válido
+        DNI dni4 = new DNI ("50484888A");
+        assertEquals(true, dni4.validar());
+
+    
+    }
+}

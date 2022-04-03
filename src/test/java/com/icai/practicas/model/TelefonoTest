@@ -1,0 +1,26 @@
+package com.icai.practicas.model;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Test;
+
+//import org.junit.jupiter.api.*;
+
+
+public class TelefonoTest {
+    @Test
+    public void testTelefono(){
+
+        //válidos
+        Telefono telefono0 = new Telefono ("684145339");
+        assertEquals(true, telefono0.validar());
+
+        Telefono telefono1 = new Telefono ("000000000");
+        assertEquals(false, telefono1.validar());
+
+        
+
+        Telefono telefono3 = new Telefono ("11111111111111111");
+        assertEquals(false, telefono3.validar());
+    
+    }
+}
