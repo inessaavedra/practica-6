@@ -1,17 +1,25 @@
 # Practica 6: Testing de una aplicacion de Spring Boot
 
-##Casos en los que es válido el formulario:
+## Casos en los que es válido el formulario:
+
 Nombre: Ines
+
 DNI: 50484888A
+
 Telefono: 684145339
 
-##Casos en los que no es valido el formulario:
+## Casos en los que no es valido el formulario:
+
 Nombre: Ines
+
 DNI: 11111111A
+
 Telefono: 684145339
 
 Nombre: Ines
+
 DNI: 11111111A
+
 Telefono: 11111111111111111
 
 
