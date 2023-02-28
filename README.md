@@ -4,9 +4,9 @@
 
 Nombre: Ines
 
-DNI: 50484888A
+DNI: 
 
-Telefono: 684145339
+Telefono: 
 
 ## Casos en los que no es valido el formulario:
 
@@ -14,7 +14,7 @@ Nombre: Ines
 
 DNI: 11111111A
 
-Telefono: 684145339
+Telefono: 
 
 Nombre: Ines
 
